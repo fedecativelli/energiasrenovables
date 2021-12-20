@@ -1,0 +1,172 @@
+*{
+    margin:0%;
+    padding:0%;
+    color: coral;
+    text-decoration: none;
+}
+
+.header{
+    text-align: center;
+    display: block;
+    background: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.header li{
+    display: inline-block;
+    margin: 25px;
+    }
+
+.main{
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.main h2{
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.main h3{
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+.main li{
+    margin: 20px;
+    align-content: center;
+    color: gray;
+    list-style: none;
+    font-weight: 1000;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.main h5{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+#tabla{
+    width: 120px;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #3C3D3F;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#titulo1{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.noticia{
+    border:  1px black;;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: auto;
+    height: 250px;
+    overflow: auto;
+    color:black;
+    line-height: 30px;
+    
+}
+
+#energias{
+    border:  1px black;;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: auto;
+    height: 120px;
+    color:black;
+    line-height: 30px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #333;
+    line-height: 25px;
+    height:70px;
+    width:100%;
+    padding-bottom: 1%;
+
+}
+
+.container h4{
+    padding-right: 1%;
+}
+
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.fotos{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+
+#texto{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.container iframe{
+    padding: 15px;
+
+}
+
+.formulario{
+    border: 1px solid white;
+    background-color: #333;
+    margin-bottom: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.formulario h1{
+    margin: 15px;
+    padding: 15px;
+    color: white;
+}
+
+.formulario label{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.formulario input{
+    text-align: center;
+    color: black;
+}
+
+.formulario textarea{
+    text-align: center;
+    padding-top: 50px;
+}
