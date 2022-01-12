@@ -1,0 +1,85 @@
+.contacto {
+    margin: 5px auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+
+    h1 {
+        color: #fff;
+        margin-bottom: 40px;
+        padding: 0;
+
+    }
+}
+
+@media(max-width:700px) {
+    .contacto {
+        h1 {
+            font-size: 24px;
+        }
+    }
+}
+
+
+.pag-contacto {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/planta_hidro.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.formulario {
+    text-align: center;
+    border: 1px solid white;
+    background-color: #9e9e9e;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    opacity: 0.75;
+
+    h1 {
+        text-align: center;
+        margin: 15px;
+        padding: 15px;
+        color: white;
+    }
+
+    label {
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    input {
+        text-align: center;
+        color: black;
+        width: 80%;
+    }
+
+    textarea {
+        text-align: center;
+        padding-top: 50px;
+        width: 80%;
+    }
+}
+
+.form-group {
+    margin: 10px;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.form-control:hover {
+    box-shadow: 0 0 10px 0px rgb(250, 248, 248);
+}

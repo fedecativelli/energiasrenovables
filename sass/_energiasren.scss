@@ -1,0 +1,123 @@
+.energiasrenovables {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+    h1 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #777;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+    }
+
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.energiasreno-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    h3 {
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+
+    }
+
+}
+
+.energiasreno-btn {
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    margin-bottom: 5%;
+    font-size: 13px;
+    background: #a7a7a7;
+    position: relative;
+    cursor: pointer;
+}
+
+.energiasreno-btn:hover {
+    color: #fff;
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+
+}
+
+.energiasreno-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 700px) {
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+.pag-energias-reno {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/planta_hidro.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.tipos-energia {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.energiasreno-pag {
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    opacity: 0.75;
+
+    h3 {
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+
+}
+
+.energiasreno-pag:hover {
+    box-shadow: 0 0 20px 0px rgb(250, 248, 248);
+}
+
+.intro-energias {
+    color: wheat;
+    text-align: center;
+    font-size: 16px;
+}
